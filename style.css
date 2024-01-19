@@ -17,6 +17,7 @@ header {
     overflow: hidden;
     position: fixed;
     box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.5);
+    z-index: 999;
 }
 
 .hd {
@@ -26,11 +27,45 @@ header {
     margin: 0 auto;
 }
 
+.dnav {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.dnav ul {
+    display: flex;
+    justify-content: right;
+}
+
+.dnav ul li {
+    padding: 0 15px;
+}
+
+.dnav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .logotext {
     margin: 1px 15px; 
     font-size: 40px;
     font-weight: 600;
     color: #fff;
+}
+
+.intro {
+    width: 650px;
+    margin: 100px auto 70px auto;
+    color: #fff;
+}
+
+.introtitle {
+    width: 190px;
+    margin: 0 auto;
+}
+
+.introtext {
+    text-align: center;
 }
 
 .bm {
