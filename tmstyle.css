@@ -60,7 +60,7 @@ header {
 }
 
 .introtitle {
-    width: 100px;
+    width: 190px;
     margin: 0 auto;
 }
 
@@ -69,57 +69,73 @@ header {
 }
 
 main {
-    display: block;
-    width: 1200px;
-    margin: auto;
+    width: 1000px;
+    height: 90%;
+    margin: 65px auto;
+    opacity: 0.90;
 }
 
-.sec_one_aside {
-    display: grid;
-    grid-template-columns: 700px 500px;
-}
-
-.sec_one {
-    width: 700px;
-}
-
-.sec_one_cont {
+.bms {
     width: 100%;
-    height: 350px;
-    border-radius: 20px;
-    background-color: #fff;
-    box-shadow: 0 1px 6px 0 rgba(255, 255, 255, 0.5);
-}
-
-.white_arr {
-    display: grid;
-    grid-template-columns: 370px 250px;
-    width: 600px;
-    margin: 0 auto;
-}
-
-.white_arr h1 {
+    height: 430px;
     margin: 45px 0;
-    font-size: 40px;
-    text-align: right;
-    color: #fff;    
-}
-
-.white_arr img {
-    position: relative;
-    top: -25px;
-}
-
-
-aside {
-    width: 500px;
-}
-
-.aside_cont {
-    width: 300px;
-    height: 450px;
-    margin: 0 auto;
-    border-radius: 20px;
-    background-color: #fff;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 300px 700px;
+    background: #ffffff;
     box-shadow: 0 1px 6px 0 rgba(255, 255, 255, 0.5);
+}
+
+.imginbox {
+    height: 400px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.otherbox {
+    width: 650px;
+    margin: 0 25px;
+}
+
+.moviename {
+    font-weight: 600;
+    font-size: 40px;
+    margin: 25px 0;
+}
+
+.genre {
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.time {
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.description {
+    font-weight: 500;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.like:hover {
+    cursor: pointer;
+    color: #8cc620;
+    transition-duration: 100ms;
+}
+
+.dislike:hover {
+    cursor: pointer;
+    color: #ff4646;
+    transition-duration: 100ms;
+}
+
+.activelike {
+    background-color: #8cc620;
+}
+
+.activedislike {
+    background-color: #ff4646;
 }
